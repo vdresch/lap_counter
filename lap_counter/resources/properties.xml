@@ -1,0 +1,12 @@
+<resources>
+    <properties>
+
+        <!-- Starting lap -->
+        <property id="lap_counter" type="number">15</property>
+        
+        <!-- Countdown mode -->
+        <property id="countdown" type="number">1</property>
+
+    </properties>
+        
+</resources>

@@ -1,0 +1,16 @@
+<settings>
+
+     <!-- Starting lap -->
+    <setting propertyKey="@Properties.lap_counter" title='Starting lap' prompt='Number of laps you want to start on'>
+        <settingConfig type="numeric" errorMessage="Only number allowed" />
+    </setting>
+
+    <!-- Only work during workouts -->
+    <setting propertyKey="@Properties.countdown" title='Countdown mode' prompt='Want to countdown from the starting lap until 0?'>
+        <settingConfig type="list">
+            <listEntry value="1">Yes</listEntry>
+            <listEntry value="0">No</listEntry>
+        </settingConfig>
+    </setting>
+
+</settings>
